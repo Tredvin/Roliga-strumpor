@@ -1,0 +1,176 @@
+.grid-container {
+    display: table-row;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #e9ac06;
+  }
+  
+  .grid-container > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hoger {
+    border: solid;
+    border-color: #FFBE0B;
+    border-width: 15px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
+  }
+.under{
+    font-style: italic;
+    font-size: small;
+}
+  
+  .grid-container > div img {
+    /* Använd `cursor: pointer` för att visa en handformad cursor vid hover */
+    cursor: pointer;
+    /* Lägg till en ram för att markera bilden vid hover */
+    transition: border 0.2s ease-in-out;
+    border: 1px solid #ccc;
+  }
+  
+  .grid-container > div img:hover {
+    border-color: #FF006E;
+  }
+
+.beskriva{
+width: 700px;
+height: 200;
+}
+.favorit{
+    background-color: #FFBE0B;
+    border-radius: 3px;
+    padding: 10px;
+    border: solid;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FF006E;
+}
+
+header {
+    background-color: #fb5609;
+    color: #FFF;
+    padding: 15px 0;
+    position: sticky; top: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #FFBE0B;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFBE0B;
+    color: #333;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #FB5607;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Formulär */
+
+#newsletter-form {
+    padding: 20px
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Textfält */
+  
+  #newsletter-form input[type="email"] {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Knapp */
+  
+  #newsletter-form button {
+    position: relative;
+    top: 1px;
+    background-color: #FF006E;
+    color: #fff;
+    padding: 8px 20px;
+    border: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  
+  /* Bekräftelsemeddelande */
+  
+  .confirmation-message {
+    background-color: #FFBE0B;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  /* Anpassa för specifika element */
+  
+  .footer-newsletter-form {
+    background-color: #FB5607;
+  }
+  
+  .footer-newsletter-form input[type="email"] {
+    border-color: #FFBE0B;
+  }
+  
+  .footer-newsletter-form button {
+    background-color: #FF006E;
+  }
+  
+  /* Media queries */
+  
+  @media (max-width: 768px) {
+    #newsletter-form {
+      width: 30%;
+    }
+  }
+  
