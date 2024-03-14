@@ -1,50 +1,72 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-B98TRVE1NK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B98TRVE1NK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-B98TRVE1NK');
-</script>
+        gtag('config', 'G-B98TRVE1NK');
+    </script>
     <meta name="description" content="Roliga strumpor är en samlingssajt för internets roligaste strumpor">
-    <meta name="keywords" content="strumpor, roliga strumpor, strumpor med roliga mönster, roliga strumpor herr, roliga strumpor dam, roliga strumpor vuxna, roliga strumpor happy socks, roliga strumpor med text, roliga strumpor barn">
-    <meta name="author" content="Roliga Strumpor"
-    <meta charset="UTF-8">
+    <meta name="keywords"
+        content="strumpor, roliga strumpor, strumpor med roliga mönster, roliga strumpor herr, roliga strumpor dam, roliga strumpor vuxna, roliga strumpor happy socks, roliga strumpor med text, roliga strumpor barn">
+    <meta name="author" content="Roliga Strumpor" <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roliga Strumpor</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body onload="buildmenu()">
-    <div><center><img src="images/logostrump3.png" height="150" class="logga"></center></div>
+    <div>
+        <center><img src="images/logostrump3.png" height="150" class="logga"></center>
+    </div>
     <header class="headerbild">
-        <nav id="menuihead"><ul id="menu"></ul></nav>
-        
+        <nav id="menuihead">
+            <ul id="menu"></ul>
+        </nav>
+
     </header>
-    
-    <main id="content"><h1>Alla favoriter!</h1>
-        <div class="grid-container">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+
+    <main id="content">
+        <h1 class="favorit">Sidans storsäljare</h1>
+
+        <div class="grid-container-start">
+                <div class="sak">
+                <h3 class="favorit2">Krokodil som äter dina fötter</h3>
+                <center><img src="images/krokodil.jpg" height="250" class="rundbild"></center>
+                <center><p class="under2">Roliga Strumpor - Krokodil.</p></center>
+                <p class="hoger2">Vi har granskat alla kandidater noggrant och kan med glädje presentera krokodilen som förtär dina fötter som den oemotståndliga vinnaren av charmtävlingen. Eller ja, den säljer bäst.</p>
+                <a href="https://tredvin.github.io/Roliga-strumpor/" target="_blank">
+                <center><button class="webbshop">Till webbshop</button></center>
+                  </a>
+            </div>
+            <div class="sak">
+                <h3 class="favorit2">Du har ugglor på strumporna</h3>
+                <center><img src="images/ugglan.png" height="250" class="rundbild"></center>
+                <center><p class="under2">Roliga Strumpor - Ugglor.</p></center>
+                <p class="hoger2">Strumpan med ugglan charmade med sin komfort och unika design. Ugglan bevisade att formatet inte behöver vara galet, utan också enkelt.</p>
+                <a href="https://tredvin.github.io/Roliga-strumpor/" target="_blank">
+                    <center><button class="webbshop">Till webbshop</button></center>
+                      </a>
+            </div>
+
     </main>
 
     <footer>
-        <div><form id="newsletter-form">
-            <input type="email" name="email" placeholder="Ange din e-postadress">
-            <button type="submit">Prenumerera</button>
-          </form></div>          
-        <p>&copy; 2024 Roliga Strumpor</p>
+        <div>
+            <form id="newsletter-form">
+                <input type="email" name="email" placeholder="Ange din e-postadress">
+                <button type="submit">Prenumerera</button>
+            </form>
+        </div>
+        <p>&copy; 2024 Roliga Strumpor | Sajten använder cookies</p>
     </footer>
 
     <script src="js/script.js"></script>
 </body>
+
 </html>

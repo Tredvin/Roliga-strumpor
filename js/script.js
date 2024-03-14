@@ -2,9 +2,9 @@ function buildmenu() {
     // Definiera länkarna
     var links = [
         ["Startsida", "index.html"],
+        ["Strumpguiden", "strumpguiden.html"],
         ["Strumpor med roliga mönster", "monster.html"],
         ["Galna strumpor", "koncept.html"],
-        ["Strumpguiden", "strumpguiden.html"],
         ["Om oss", "omoss.html"]
     ];
 
