@@ -21,7 +21,7 @@
     background-color: #FFBE0B;
     border-radius: 3px;
     padding: 10px;
-    border: solid;
+
     width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -32,7 +32,7 @@
     background-color: #FFBE0B;
     border-radius: 3px;
     padding: 10px;
-    border: solid;
+
     width: 390px;
     margin-left: auto;
     margin-right: auto;
@@ -122,7 +122,7 @@ height: 200;
     background-color: #FFBE0B;
     border-radius: 3px;
     padding: 10px;
-    border: solid;
+
 }
 body {
     margin: 0;
