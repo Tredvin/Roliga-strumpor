@@ -5,7 +5,8 @@ function buildmenu() {
         ["Strumpguiden", "strumpguiden.html"],
         ["Strumpor med roliga mönster", "monster.html"],
         ["Galna strumpor", "koncept.html"],
-        ["Om oss", "omoss.html"]
+        ["Om oss", "omoss.html"],
+        ["Sommarkampanj", "https://edvinlofgren1.wordpress.com/"]
     ];
 
     var content = ""; // Variabel för att bygga menyinnehållet
